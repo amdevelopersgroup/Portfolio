@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AM Developers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+  <div class="logo">
+    <a href="#home">
+      <img src="./logo.jpeg" alt="AM Developers">
+    </a>
+  </div>
+
+  <ul class="nav-links">
+    <li data-section="home"     data-i18n="nav-home">Home</li>
+    <li data-section="about"    data-i18n="nav-about">About</li>
+    <li data-section="projects" data-i18n="nav-projects">Projects</li>
+    <li data-section="contact"  data-i18n="nav-contact">Contact</li>
+  </ul>
+
+  <div class="lang-toggle">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <span class="lang-sep">|</span>
+    <button class="lang-btn" data-lang="ru">RU</button>
+  </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-left">
+    <h1>Hello, we are</h1>
+    <h2>AM Developers</h2>
+    <h3>Web Developer Collective</h3>
+    <p data-i18n="hero-p">We specialize in creating high-performance web interfaces, paying attention to every detail of the code. Our team ensures seamless adaptability to any device, integration with modern content management systems, and loading speed optimization, so your project runs fast, stable, and delivers results from day one.</p>
+  </div>
+
+  <div class="hero-right">
+    <div class="image-box">
+      <img src="./intro.png" alt="intro image">
+    </div>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+
+  <h2 data-i18n="about-heading">About Us</h2>
+
+  <div class="about-wrapper">
+
+    <div class="about-left">
+
+      <div class="about-card left-shape">
+        <div class="img-inner">
+          <img src="./first.jpeg" alt="">
+        </div>
+      </div>
+
+      <p class="about-text" data-i18n="about-left-p">
+        Transparent development process: you always know what stage your project is at. Our team works in sync, guaranteeing results that exceed expectations.
+      </p>
+
+    </div>
+
+    <div class="about-right">
+
+      <p class="about-text" data-i18n="about-right-p">
+        We build modern websites where aesthetics meet flawless code. Our priority is user experience and fast loading.
+      </p>
+
+      <div class="about-card right-shape">
+        <div class="img-inner">
+          <img src="./second.jpeg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <h2 data-i18n="projects-heading">Our Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./project 1.jpeg" alt="Fibonacci Generator">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">Fibonacci Generator</h3>
+        <p class="project-desc" data-i18n="project1-desc">A tool for generating Fibonacci sequences and performing fast mathematical calculations.</p>
+        <a href="https://amdevelopersgroup.github.io/Fibonacci-Game/#about" class="project-link" target="_blank" rel="noopener noreferrer" data-i18n="project-link">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./project 2.jpeg" alt="Rock-Paper-Scissors">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">Rock-Paper-Scissors</h3>
+        <p class="project-desc" data-i18n="project2-desc">A simple game where the user competes against the computer by choosing rock, paper, or scissors.</p>
+        <a href="https://amdevelopersgroup.github.io/Rock-Paper-Scissors/" class="project-link" target="_blank" rel="noopener noreferrer" data-i18n="project-link">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./project 3.jpeg" alt="Matrix Calculator">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">Matrix Calculator</h3>
+        <p class="project-desc" data-i18n="project3-desc">A tool for matrix operations including addition, multiplication, and transformations.</p>
+        <a href="https://amdevelopersgroup.github.io/Matrix-Calculator/" class="project-link" target="_blank" rel="noopener noreferrer" data-i18n="project-link">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./project 4.jpeg" alt="Gold Dental">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">Gold Dental</h3>
+        <p class="project-desc" data-i18n="project4-desc">A dental service for treatment, prosthetics, and high-end cosmetic dentistry.</p>
+        <a href="https://dentist-company.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" data-i18n="project-link">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2 data-i18n="contact-heading">Contact Us</h2>
+  <p><span data-i18n="contact-email">Email:</span>
+    <a href="mailto:amdevelopersgroup@gmail.com">amdevelopersgroup@gmail.com</a>
+  </p>
+</section>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
